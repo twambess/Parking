@@ -1,13 +1,13 @@
-#Parking lot
+# Parking lot
 Java Spring + H2 project
-##Requirements
+## Requirements
 
 ---
 For building adn running the application you need:
 * [JDK 8](https://www.oracle.com/java/technologies/downloads/#java8)
 * [MAVEN 3](https://maven.apache.org/)
 
-##Running the application locally
+## Running the application locally
 
 ---
 
@@ -18,7 +18,7 @@ Alternatively you can use Maven plugin like:
 mvn spring-boot:run
 ```
 
-##About the Service
+## About the Service
 
 ---
 

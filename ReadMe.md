@@ -28,3 +28,11 @@ Database have 3 tables which  interaction of program<br>
 Main table is `DATE_AND_PRICE` contains information about prices for places and rental time.
 
 The owners car __name__ u can see in table `CARS`
+
+
+## Documentation
+
+---
+
+Swagger was used for recorded and tested application<br>
+[link localhost for using swagger](http://localhost:8080/swagger-ui/index.html#/)

@@ -22,8 +22,5 @@ public class Car {
     @JsonIgnore
     @OneToOne(mappedBy = "car", cascade =CascadeType.ALL)
     private DateAndPrice dateAndPrice;
-//    @OneToOne(cascade = CascadeType.ALL)
-//    @JoinColumn(name="parking_place_id")
-//    private ParkingPlace parkingId;
 }
 

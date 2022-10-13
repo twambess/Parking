@@ -1,10 +1,9 @@
 # Parking lot
-<<<<<<< HEAD
 Java Spring + H2 project<br>
 [Link at task](Task.md)
 =======
 Java Spring + H2 project
->>>>>>> 5f68e420dc086c81e13192a5c78408a34074d445
+
 ## Requirements
 
 ---
@@ -43,4 +42,4 @@ The owners car __name__ u can see in table `CARS`
 
 Swagger was used for recorded and tested application<br>
 [link localhost for using swagger](http://localhost:8080/swagger-ui/index.html#/)
->>>>>>> 5f68e420dc086c81e13192a5c78408a34074d445
+

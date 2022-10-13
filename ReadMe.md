@@ -1,8 +1,8 @@
 # Parking lot
-Java Spring + H2 project<br>
-[Link at task](Task.md)
-=======
+
+
 Java Spring + H2 project
+[Link at task](Task.md)
 
 ## Requirements
 
@@ -33,13 +33,18 @@ Main table is `DATE_AND_PRICE` contains information about prices for places and 
 
 The owners car __name__ u can see in table `CARS`
 
-<<<<<<< HEAD
-=======
+
 
 ## Documentation
 
 ---
 
 Swagger was used for recorded and tested application<br>
-[link localhost for using swagger](http://localhost:8080/swagger-ui/index.html#/)
+[link localhost for using swagger](http://localhost:8080/swagger-ui/index.html#/)'
+
+## Flyway
+
+---
+
+Flyway was used for migration sql requests for sustain db _(in package **resources/db/migration**)_
 

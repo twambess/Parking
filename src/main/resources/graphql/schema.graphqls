@@ -1,8 +1,20 @@
 type Query {
-    cars: [Car]
+    dates: [DateAndPrice]
+}
+
+type DateAndPrice{
+    id: ID!
+    car: Car
+    parkingPlace: ParkingPlace
+    date: String
+    price: String
 }
 
 type Car{
-    id: ID!
-    name: String!
+    id: ID
+    name: String
+}
+
+type ParkingPlace{
+    id: ID
 }

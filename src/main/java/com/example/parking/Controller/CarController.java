@@ -36,7 +36,6 @@ public class CarController {
     @ApiOperation("Создание новой машины")
     public void addCar(@RequestBody Car car){
         carRepository.save(car);
-
     }
 
     @DeleteMapping("/item/{carId}")

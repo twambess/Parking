@@ -15,6 +15,7 @@ public class DateAndPrice {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id",nullable = false)
     private Long id;
 
     @OneToOne(cascade = CascadeType.ALL)
